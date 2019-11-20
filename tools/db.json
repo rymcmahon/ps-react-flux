@@ -69,6 +69,38 @@
       "slug": "web-components-shadow-dom",
       "authorId": 1,
       "category": "HTML5"
+    },
+    {
+      "id": 11,
+      "slug": "post-flux-save",
+      "title": "Post Flux Save",
+      "authorId": 2,
+      "category": "React",
+      "createdAt": 1574281125424
+    },
+    {
+      "id": 12,
+      "slug": "another-post-flux",
+      "title": "Another Post Flux",
+      "authorId": 1,
+      "category": "Ruby",
+      "createdAt": 1574281277553
+    },
+    {
+      "id": 13,
+      "slug": "third-try-post-flux",
+      "title": "Third Try Post Flux",
+      "authorId": 2,
+      "category": "JS",
+      "createdAt": 1574281442220
+    },
+    {
+      "id": 14,
+      "slug": "view-with-store",
+      "title": "View with Store",
+      "authorId": 2,
+      "category": "JS",
+      "createdAt": 1574281628702
     }
   ],
   "authors": [
