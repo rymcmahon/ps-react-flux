@@ -2,6 +2,7 @@ import React from "react";
 import TextInput from "./common/TextInput";
 
 function CourseForm(props) {
+  console.log('props: ', props);
   return (
     <form onSubmit={props.onSubmit}>
       <TextInput

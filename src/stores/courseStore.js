@@ -23,17 +23,21 @@ class CourseStore extends EventEmitter {
     }
 
     getCourseBySlug(slug) {
-        return _courses.find(courses => _courses.slug === slug);
+        return _courses.find(_courses => _courses.slug === slug);
     }
 }
 
 const store = new CourseStore();
 
-//every store that registers witht the dispatcher is notified of every action
+//every store that registers withr the dispatcher is notified of every action
 Dispatcher.register(action => {
     switch (action.actionType) {
         case actionTypes.CREATE_COURSE:
             _courses.push(action.course);
+            store.emitChange();
+            break;
+        case actionTypes.UPDATE_COURSE:
+            _courses = _courses.map(course => course.id === action.course.id ? action.course : course);
             store.emitChange();
             break;
         case actionTypes.LOAD_COURSES:
