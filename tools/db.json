@@ -1,48 +1,6 @@
 {
   "courses": [
     {
-      "id": 1,
-      "title": "Securing React Apps with Auth0222",
-      "slug": "react-auth0-authentication-security",
-      "authorId": 1,
-      "category": "JavaScript"
-    },
-    {
-      "id": 2,
-      "title": "React: The Big Picture",
-      "slug": "react-big-picture",
-      "authorId": 1,
-      "category": "JavaScript"
-    },
-    {
-      "id": 3,
-      "title": "Creating Reusable React Components",
-      "slug": "react-creating-reusable-components",
-      "authorId": 1,
-      "category": "JavaScript"
-    },
-    {
-      "id": 4,
-      "title": "Building a JavaScript Development Environment",
-      "slug": "javascript-development-environment",
-      "authorId": 1,
-      "category": "JavaScript"
-    },
-    {
-      "id": 5,
-      "title": "Building Applications with React and Redux",
-      "slug": "react-redux-react-router-es6",
-      "authorId": 1,
-      "category": "JavaScript ES6"
-    },
-    {
-      "id": 6,
-      "title": "Building Applications in React and Flux",
-      "slug": "react-flux-building-applications",
-      "authorId": 1,
-      "category": "JavaScript"
-    },
-    {
       "id": 7,
       "title": "Clean Code: Writing Code for Humans",
       "slug": "writing-clean-code-humans",
@@ -72,35 +30,11 @@
     },
     {
       "id": 11,
-      "slug": "post-flux-save",
-      "title": "Post Flux Save",
-      "authorId": 2,
-      "category": "React",
-      "createdAt": 1574281125424
-    },
-    {
-      "id": 12,
-      "slug": "another-post-flux",
-      "title": "Another Post Flux",
+      "slug": "new-course",
+      "title": "New Course 2",
       "authorId": 1,
-      "category": "Ruby",
-      "createdAt": 1574281277553
-    },
-    {
-      "id": 13,
-      "slug": "third-try-post-flux",
-      "title": "Third Try Post Flux",
-      "authorId": 2,
-      "category": "JS",
-      "createdAt": 1574281442220
-    },
-    {
-      "id": 14,
-      "slug": "view-with-store",
-      "title": "View with Store",
-      "authorId": 2,
-      "category": "JS",
-      "createdAt": 1574281628702
+      "category": "ReactJS",
+      "createdAt": 1574456411436
     }
   ],
   "authors": [
